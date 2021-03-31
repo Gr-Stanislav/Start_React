@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
 function Main() {
-
     let [num, setNum] = useState(0);
 
     if ( num < 0) {
